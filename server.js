@@ -1,9 +1,9 @@
-var user = require("./user.js")
+var user = require("./user.js");
 
 module.exports = {
   logic: function (req, res) {
     
-    console.log(req.url)
+    console.log(req.url);
     if (req.url == "/save") {
       user.save("testu", "testpwd", function() {
         res.writeHead(201, {'Content-Type': 'text/plain'});
@@ -25,4 +25,4 @@ module.exports = {
 },
 port: "8888", 
 address: "127.0.0.1"
-}
+};
