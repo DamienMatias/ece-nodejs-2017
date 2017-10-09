@@ -15,7 +15,7 @@ module.exports = {
                 res.end('got the user');
             })
         } else if(req.url == "/") {
-            console.log("hello i'm in a function");
+            console.log("hello i'm in a fe");
             res.writeHead(200, {'Content-Type': 'text/plain'});
             res.end('Hello World\n');
         } else {
