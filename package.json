@@ -2,7 +2,15 @@
   "name": "ast_project_2017",
   "description": "simple project for ECE AST class",
   "version": "0.0.1",
+  "scripts": {
+    "start": "bash bin/start.sh",
+    "test": "bash bin/test.sh"
+  },
   "dependencies": {
-    "gulp": "1.0"
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1",
+    "should": "^13.1.1"
   }
 }
