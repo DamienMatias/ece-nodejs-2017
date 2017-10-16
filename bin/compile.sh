@@ -14,6 +14,7 @@ compilePug() {
 
 compileStylus() {
   echo "Compiling stylus files"
+  node_modules/.bin/stylus --watch stylesheets/ --out public/css
   echo "nothing to do"
 }
 
